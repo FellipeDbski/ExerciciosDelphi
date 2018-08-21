@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/20 21:54:41.000.710,=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:56:00.000.405,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\ConversaoCambial.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/20 22:20:24.000.853,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Conversao.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/20 22:20:24.000.853,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Conversao.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 22:20:42.000.462,C:\Users\Fellipe\Desktop\Exercicios\Conversao.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Conversao.dfm</Transaction>
+    <Transaction>2018/08/20 22:20:42.000.462,C:\Users\Fellipe\Desktop\Exercicios\Conversao.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Conversao.pas</Transaction>
+    <Transaction>2018/08/20 22:20:45.000.273,C:\Users\Fellipe\Desktop\Exercicios\ConversaoCambial.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\ConversaoCambial.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

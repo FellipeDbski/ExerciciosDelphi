@@ -1,0 +1,40 @@
+unit Conversao;
+
+interface
+    SetWindowLong(LBLReal.Handle, GWL_STYLE, GetWindowLong(LBLReal.Handle, GWL_STYLE) or ES_NUMBER);
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    BTNConverte: TButton;
+    LBLReal: TEdit;
+    Label2: TLabel;
+    LBLDolar: TEdit;
+    RadioButton1: TRadioButton;
+    procedure BTNConverteClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  Form1: TForm1;
+  wpValorReal, wpValorFinal: string;
+  wpValorDolar: extended;
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.BTNConverteClick(Sender: TObject);
+begin
+   wpValorReal := LBLReal.Text;
+   wpValorDolar := wpValorReal.ToExtended / 2.14;
+   wpValorFinal := wpValorDolar.ToString;
+   LBLDolar.Text :=  formatfloat('###,###,##0.00',wpValorDolar);
+   //Considerando a taxa de câmbio US$1,0 = R$ 2,40 conforme o exercício
+end;
+
+end.

@@ -1,0 +1,37 @@
+program MaiorNumero;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+var
+  wpNumero1, wpNumero2, wpNumero3, wpMaior: integer;
+begin
+    wpMaior := 0;
+    write('Digite o primeiro numero: ');
+    readLn(wpNumero1);
+    if(wpNumero1 >= 0) AND (wpNumero1 > wpMaior)then
+    begin
+      wpMaior := wpNumero1;
+    end;
+
+    write('Digite o segundo numero: ');
+    readLn(wpNumero2);
+    if(wpNumero2 >= 0) AND (wpNumero2 > wpMaior)then
+    begin
+      wpMaior := wpNumero3;
+    end;
+
+    write('Digite o terceiro numero: ');
+    readLn(wpNumero3);
+    if(wpNumero3 >= 0) AND (wpNumero3 > wpMaior)then
+    begin
+      wpMaior := wpNumero3;
+    end;
+
+    write('Maior valor dos três numeros: ', wpMaior);
+    readLn();
+end.
