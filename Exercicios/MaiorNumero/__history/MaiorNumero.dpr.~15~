@@ -19,7 +19,6 @@ begin
 end;
 
 begin
-    wpMaior := 0;
     write('Digite o primeiro numero: ');
     readLn(wpNumero1);
     fRetornaMaior(wpNumero1);
