@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/21 21:25:15.000.187,=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/21 23:12:19.000.523,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\CalculoSalarioHora.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/21 23:44:15.000.809,C:\Users\Fellipe\Desktop\Delphi\Exercicios\CalculoSalarioHora\Unit1.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/21 23:44:15.000.809,C:\Users\Fellipe\Desktop\Delphi\Exercicios\CalculoSalarioHora\Unit1.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/21 23:44:19.000.296,C:\Users\Fellipe\Desktop\Delphi\Exercicios\CalculoSalarioHora\CalculoSalarioHora.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\CalculoSalarioHora.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

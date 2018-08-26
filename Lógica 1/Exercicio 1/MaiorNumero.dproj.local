@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/19 20:49:24.000.202,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\MaiorNumero.dproj</Transaction>
+    <Transaction>2018/08/20 00:36:13.000.277,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\MaiorNumero.dproj=C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\MaiorNumero.dproj</Transaction>
+    <Transaction>2018/08/20 20:54:48.000.588,=C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 20:55:06.000.100,C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\p.pas=C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 20:56:19.000.862,C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\pMaiorNumero.pas=C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\p.pas</Transaction>
+    <Transaction>2018/08/20 21:10:14.000.567,C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\uUtilMaiorNumero.pas=C:\Users\Fellipe\Desktop\Exercicios\MaiorNumero\pMaiorNumero.pas</Transaction>
+  </Transactions>
+</BorlandProject>
