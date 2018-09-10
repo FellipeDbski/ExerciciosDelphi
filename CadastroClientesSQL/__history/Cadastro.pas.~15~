@@ -1,0 +1,73 @@
+unit Cadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls,
+  Vcl.Samples.Spin, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.Mask;
+
+type
+  TformCadastro = class(TForm)
+    edNome: TEdit;
+    edCPF: TMaskEdit;
+    dtNascimento: TDateTimePicker;
+    rgSexo: TRadioGroup;
+    rdMaculino: TRadioButton;
+    rdFeminino: TRadioButton;
+    spinDependentes: TSpinEdit;
+    cbEstadoCivil: TComboBox;
+    edCidade: TEdit;
+    cbPossuiCasaP: TCheckBox;
+    cbPossuiVeiculoP: TCheckBox;
+    edRendaMensal: TEdit;
+    cbUF: TComboBox;
+    btnLancar: TButton;
+    btnLimpar: TButton;
+    btnSalvarArquivo: TButton;
+    lbNome: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Remu: TLabel;
+    edCEP: TMaskEdit;
+    Informações: TMemo;
+    procedure btnLimparClick(Sender: TObject);
+    procedure edRendaMensalChange(Sender: TObject);
+    procedure edRendaMensalChange(Sender: TObject);
+    procedure edRendaMensalChange(Sender: TObject);
+    procedure edRendaMensalExit(Sender: TObject);
+  private
+    { Public declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formCadastro: TformCadastro;
+
+implementation
+
+{$R *.dfm}
+
+procedure TformCadastro.btnLimparClick(Sender: TObject);
+begin
+  edNome.Clear;
+  edCPF.Clear;
+  dtNascimento.Date := Now;
+  rgSexo.ItemIndex := -1;
+  spinDependentes.Value := 0;
+  cbEstadoCivil.ItemIndex := -1;
+  edCidade.Clear;
+  edCEP.Clear;
+  cbUF.ItemIndex := 0;
+  edRendaMensal.Text := '0,00';
+  cbPossuiCasaP.Checked := False;
+  cbPossuiVeiculoP.Checked := False;
+end;
+
+

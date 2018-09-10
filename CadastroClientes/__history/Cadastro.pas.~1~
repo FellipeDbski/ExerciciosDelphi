@@ -1,0 +1,118 @@
+unit Cadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls,
+  Vcl.Samples.Spin, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.Mask;
+
+type
+  TformCadastro = class(TForm)
+    edNome: TEdit;
+    edCPF: TMaskEdit;
+    dtNascimento: TDateTimePicker;
+    rgSexo: TRadioGroup;
+    rdMaculino: TRadioButton;
+    rdFeminino: TRadioButton;
+    spinDependentes: TSpinEdit;
+    cbEstadoCivil: TComboBox;
+    edCidade: TEdit;
+    cbPossuiCasaP: TCheckBox;
+    cbPossuiVeiculoP: TCheckBox;
+    edRendaMensal: TEdit;
+    cbUF: TComboBox;
+    btnLancar: TButton;
+    btnLimpar: TButton;
+    btnSalvarArquivo: TButton;
+    lbNome: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Remu: TLabel;
+    edCEP: TMaskEdit;
+    meDados: TMemo;
+    procedure btnLimparClick(Sender: TObject);
+    procedure edRendaMensalExit(Sender: TObject);
+    procedure edRendaMensalEnter(Sender: TObject);
+    procedure edRendaMensalKeyPress(Sender: TObject; var Key: Char);
+    procedure meDadosClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formCadastro: TformCadastro;
+
+implementation
+
+{$R *.dfm}
+
+procedure TformCadastro.btnLimparClick(Sender: TObject);
+begin
+  edNome.Clear;
+  edCPF.Clear;
+  dtNascimento.Date := Now;
+  rgSexo.ItemIndex := -1;
+  spinDependentes.Value := 0;
+  cbEstadoCivil.ItemIndex := -1;
+  edCidade.Clear;
+  edCEP.Clear;
+  cbUF.ItemIndex := 0;
+  edRendaMensal.Text := '0,00';
+  cbPossuiCasaP.Checked := False;
+  cbPossuiVeiculoP.Checked := False;
+  edNome.SetFocus;
+end;
+
+procedure TformCadastro.edRendaMensalEnter(Sender: TObject);
+begin
+  edRendaMensal.SelectAll;
+end;
+
+procedure TformCadastro.edRendaMensalExit(Sender: TObject);
+begin
+
+   try
+      FormatCurr('0,00', strToCurr(edRendaMensal.Text));
+
+      except on e: exception do
+      begin
+
+           ShowMessage('Valor Inválido. ' + e.Message);
+           edRendaMensal.SetFocus;
+           Exit;
+
+      end;
+
+   end;
+
+end;
+
+procedure TformCadastro.edRendaMensalKeyPress(Sender: TObject; var Key: Char);
+begin
+      if Not(Key in  ['0'..'9',',']) then
+      Key := #0;
+end;
+
+procedure TformCadastro.meDadosClick(Sender: TObject);
+begin
+
+  meDados.Lines.Add('Nome: ' + edNome.Text);
+  meDados.Lines.Add('CPF: ' + edCPF.Text);
+  meDados.Lines.Add('Data: ' + DateToStr(dtNascimento.Date));
+
+  meDados.Lines.Add('Sexo: ' + rgSexo.Items.Strings[rgSexo.ItemIndex]);
+
+  //meDados.Lines.Add('Estado Civil' + );
+  //Pagina 45;
+
+end;
+
+end.

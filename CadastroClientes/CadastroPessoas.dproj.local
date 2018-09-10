@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018/09/09 16:58:24.257,=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/09 18:14:06.619,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Login.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/09 18:14:06.619,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Login.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/09/09 18:14:13.287,=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/09/09 18:14:52.654,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Principal.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2018/09/09 18:14:52.654,C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Principal.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/09/09 18:50:11.191,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Principal.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Principal.dfm</Transaction>
+    <Transaction>2018/09/09 18:50:11.191,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Principal.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Principal.pas</Transaction>
+    <Transaction>2018/09/09 18:50:13.171,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Login.pas=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Login.pas</Transaction>
+    <Transaction>2018/09/09 18:50:13.171,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Login.dfm=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Login.dfm</Transaction>
+    <Transaction>2018/09/09 18:50:18.920,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Project1.dproj=C:\Users\Fellipe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/09/09 20:02:39.890,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\CadastroPessoas.dproj=C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Project1.dproj</Transaction>
+    <Transaction>2018/09/09 20:08:20.359,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Cadastro.pas=C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Principal.pas</Transaction>
+    <Transaction>2018/09/09 20:08:20.360,C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Cadastro.dfm=C:\Users\Fellipe\Desktop\Delphi\CadastroClientes\Principal.dfm</Transaction>
+  </Transactions>
+  <BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

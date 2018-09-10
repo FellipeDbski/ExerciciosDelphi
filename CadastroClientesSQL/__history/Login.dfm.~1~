@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 243
+  ClientWidth = 538
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbUsuario: TLabel
+    Left = 112
+    Top = 72
+    Width = 62
+    Height = 23
+    Caption = 'Usu'#225'rio'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbSenha: TLabel
+    Left = 121
+    Top = 120
+    Width = 53
+    Height = 23
+    Caption = 'Senha'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edUsuario: TEdit
+    Left = 200
+    Top = 72
+    Width = 177
+    Height = 21
+    TabOrder = 0
+  end
+  object edSenha: TEdit
+    Left = 200
+    Top = 120
+    Width = 177
+    Height = 21
+    TabOrder = 1
+  end
+  object btnLogar: TButton
+    Left = 200
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = 'Logar'
+    TabOrder = 2
+  end
+  object btnCadastrar: TButton
+    Left = 302
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 3
+  end
+end
